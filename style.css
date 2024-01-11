@@ -1,0 +1,140 @@
+:root{
+    --green: #a0e4b0;
+   --c1:#ffa8a8;
+--c2:#a0e4b0;
+--c3:#c2f;
+--c4:#fa7f7f;
+--white:whitesmoke;
+--yellow:#ffc54d;
+--red:crimson;
+--black:black;
+}
+body,h2{
+  margin: 0%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url(pexels-monica-turlui-7218637.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--white);
+}
+header a{
+    text-decoration: none;
+    color: var(--yellow);
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;;
+
+}
+#logo{ 
+    flex:3;
+    font-size:30px;
+    min-width: 260px;
+}
+nav{
+    flex:2;
+    display: flex;
+}
+nav a{
+    flex: 1;
+    align-items: center;
+}
+nav a:hover{
+    color: var(--red);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    padding: 2em;
+}
+.tagline1{
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--c2);
+}
+.tagline2{
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--red);
+}
+.maintext div{
+    margin-top:.40em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top:2em;
+    border-radius: 10px;
+    padding: .222em;
+    background-color:lightgreen;
+}
+.menu{
+   display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(302px,1fr));
+    background: linear-gradient(to right, rgb(100,100,100),rgb(53,52,52));
+    color: var(--white);
+}
+
+#menuheading,#localheading{
+background: linear-gradient(to right, rgb(100,100,100),rgb(53,52,52));
+font-size: 2em;
+color: var(--red);
+display: flex;
+justify-content: center;
+}
+.menu th{
+    color: var(--yellow);
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+
+#locheading{
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(100,100,100),rgb(53,52,52));
+}
+.location{
+    background: linear-gradient(to right, rgb(100,100,100),rgb(53,52,52));
+display: flex;
+flex-wrap: wrap;
+color: var(--white);
+}
+.location h2{
+    color: var(--yellow);
+    margin-bottom:.8em ;
+}
+.location div{
+    flex: 1;
+    padding: 1em;
+    min-width: 150px;
+}
+#copyright{
+    color: whitesmoke;
+    background: linear-gradient(to right, rgb(100,100,100),rgb(53,52,52));
+display: flex;
+}
+header i{
+    margin: .5em;
+}
